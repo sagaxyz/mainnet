@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2024-03-15T16:20:00.000000Z",
+  "genesis_time": "2024-04-08T00:00:00.000000Z",
   "chain_id": "ssc-1",
   "initial_height": "1",
   "consensus_params": {
@@ -194,14 +194,14 @@
     },
     "mint": {
       "minter": {
-        "inflation": "0.130000000000000000",
+        "inflation": "0.070000000000000000",
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
         "mint_denom": "usaga",
-        "inflation_rate_change": "0.130000000000000000",
-        "inflation_max": "0.200000000000000000",
-        "inflation_min": "0.070000000000000000",
+        "inflation_rate_change": "0.100000000000000000",
+        "inflation_max": "0.080000000000000000",
+        "inflation_min": "0.020000000000000000",
         "goal_bonded": "0.670000000000000000",
         "blocks_per_year": "6311520"
       }
@@ -224,7 +224,7 @@
     "staking": {
       "params": {
         "unbonding_time": "1814400s",
-        "max_validators": 20,
+        "max_validators": 21,
         "max_entries": 7,
         "historical_entries": 10000,
         "bond_denom": "usaga",
