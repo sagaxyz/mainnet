@@ -53,7 +53,7 @@
               "aliases": ["microsaga"]
             },
             {
-              "denom": "saga",
+              "denom": "tsaga",
               "exponent": 6,
               "aliases": []
             }
@@ -81,9 +81,9 @@
     },
     "distribution": {
       "params": {
-        "community_tax": "0.020000000000000000",
-        "base_proposer_reward": "0.000000000000000000",
-        "bonus_proposer_reward": "0.000000000000000000",
+        "community_tax": "0.042000000000000000",
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
         "withdraw_addr_enabled": true
       },
       "fee_pool": {
@@ -119,14 +119,14 @@
         "min_deposit": [
           {
             "denom": "usaga",
-            "amount": "100000000"
+            "amount": "250000000"
           }
         ],
         "max_deposit_period": "604800s",
         "voting_period": "604800s",
-        "quorum": "0.334000000000000000",
+        "quorum": "0.400000000000000000",
         "threshold": "0.500000000000000000",
-        "veto_threshold": "0.334000000000000000",
+        "veto_threshold": "0.400000000000000000",
         "min_initial_deposit_ratio": "0.000000000000000000",
         "burn_vote_quorum": false,
         "burn_proposal_deposit_prevote": false,
@@ -199,17 +199,17 @@
       },
       "params": {
         "mint_denom": "usaga",
-        "inflation_rate_change": "0.100000000000000000",
+        "inflation_rate_change": "1.000000000000000000",
         "inflation_max": "0.080000000000000000",
         "inflation_min": "0.020000000000000000",
         "goal_bonded": "0.670000000000000000",
-        "blocks_per_year": "6311520"
+        "blocks_per_year": "5484522"
       }
     },
     "params": null,
     "slashing": {
       "params": {
-        "signed_blocks_window": "10000",
+        "signed_blocks_window": "17280",
         "min_signed_per_window": "0.500000000000000000",
         "downtime_jail_duration": "600s",
         "slash_fraction_double_sign": "0.050000000000000000",
