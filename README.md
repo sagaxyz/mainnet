@@ -12,7 +12,7 @@ To submit your gentx:
 
 ```
 sscd gentx <validator-key-name> 8000000usaga \
-    --chain-id ssc-testnet-2 \
+    --chain-id ssc-1 \
     --account-number X \
     --ip X.X.X.X \
     --moniker <moniker> \
