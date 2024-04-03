@@ -11,7 +11,7 @@ To submit your gentx:
 2. Create your `gentx` with **at least** an external ip, moniker, security contact, and website.
 
 ```
-sscd gentx <validator-key-name> 8000000utsaga \
+sscd gentx <validator-key-name> 8000000usaga \
     --chain-id ssc-testnet-2 \
     --account-number X \
     --ip X.X.X.X \
