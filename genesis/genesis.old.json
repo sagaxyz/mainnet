@@ -53,7 +53,7 @@
               "aliases": ["microsaga"]
             },
             {
-              "denom": "tsaga",
+              "denom": "saga",
               "exponent": 6,
               "aliases": []
             }
