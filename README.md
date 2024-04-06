@@ -18,6 +18,8 @@ sscd gentx <validator-key-name> 8000000usaga \
     --moniker <moniker> \
     --security-contact <email@example.com> \
     --website <saga.xyz> \
+    --commission-max-change-rate "0.01" \
+    --commission-max-rate "0.2" \
     --home $SSC_HOME
 ```
 
