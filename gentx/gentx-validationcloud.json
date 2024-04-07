@@ -20,7 +20,7 @@
         "validator_address": "sagavaloper1su2yh6xsh5cahxgtrv88vms54jlmes4k8m3dd0",
         "pubkey": {
           "@type": "/cosmos.crypto.ed25519.PubKey",
-          "key": "/kWYSfmwCkIJg+8q2CsHaKOnO7yhCI5BnTd36dDVqbM="
+          "key": "HlzjzEvQxaMF+7vHmw2gyflLUMEaUeJgZ8z61HVYMfs="
         },
         "value": {
           "denom": "usaga",
@@ -57,6 +57,6 @@
     "tip": null
   },
   "signatures": [
-    "K8b7PuMzDwIhymheCSZud0bQ99hzYrq0sCfq4T29BRoI+tJ9CC0rUPcIwf3ecFBqt+0zwbcnGhffGjzllXGSBg=="
+    "bHoI4G+t6TiNNOFACWKtk6sys6LSCP0s1bihut2H2QongA+K5O/qnLSETCOCVFbN+mZ5HmbuFgEovY56lPFsJw=="
   ]
 }
